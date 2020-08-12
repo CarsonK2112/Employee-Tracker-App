@@ -41,5 +41,9 @@ INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES ("Sean
 INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES ("Sarah", "Schulz", 1, 0);
 INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES ("Emma", "Lewis", 4, 0);
 
+SELECT * FROM employee_tracker_db.employees;
 
+SELECT * FROM employee_tracker_db.roles;
+
+SELECT * FROM employee_tracker_db.departments
 
